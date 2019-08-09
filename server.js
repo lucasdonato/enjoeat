@@ -15,5 +15,5 @@ app.get('/*', function (req, res) {
 });
 
 app.listen(port, function () {
-  console.log('Enjoeat Sprint 4 disponível em http://localhost:4000');
+  console.log('Enjoeat Sprint 4 disponível em http://enjoeat:4000');
 });
