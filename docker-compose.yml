@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  enjoeat:
+    container_name: enjoeat
+    image: node:10.16-alpine
+    command: npm start
+    working_dir: /home/app
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./enjoeat/:/home/app
